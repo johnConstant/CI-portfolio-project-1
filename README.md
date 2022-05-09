@@ -12,3 +12,5 @@
 7. A customer visits our site to contact us with a question/booking
 8. A customer visits our site and wants to sign up for updates on events and specials
 9. A customer visits our site to find us on social media platforms.
+
+[Wireframes](https://github.com/johnConstant/CI-portfolio-project-1/blob/main/PP1_restaurantSite_wireframes.bmpr)
