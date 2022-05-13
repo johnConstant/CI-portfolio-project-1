@@ -478,3 +478,27 @@ footer a:hover {
     height: 50rem;
     border: 0;
 }
+
+/* 404 */
+
+#error {
+    height: 70vh;
+    text-align: center;
+    padding: 5rem;
+}
+
+#error h2 {
+    background-image: url('../images/error2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    margin-bottom: 5rem;
+}
+
+#error h2 span {
+    font-size: 50vh;
+    line-height: 85%;
+}
