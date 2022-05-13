@@ -144,7 +144,8 @@ header h3 {
 }
 
 header h2 {
-    font-size: 7.2rem;
+    font-size: 12rem;
+    margin-bottom: 0;
 }
 
 header h3 {
