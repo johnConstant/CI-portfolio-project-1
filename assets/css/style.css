@@ -437,3 +437,32 @@ footer a:hover {
     height: 100%;
     padding: 0;
 }
+
+/* Contact Page */
+
+#locate-us {
+    width: 70%;
+    margin: 5rem auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.opening-hours {
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+}
+
+.opening-hours p {
+    margin-bottom: 1.5rem;
+}
+
+.opening-hours p:last-child {
+    margin-bottom: 5rem;
+}
+
+.map iframe {
+    width: 100%;
+    height: 50rem;
+    border: 0;
+}
