@@ -91,3 +91,30 @@ nav > * {
     color: var(--orange);
     font-weight: 500;
 }
+
+/* Footer */
+
+footer {
+    min-height: 15vh;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    /* display: grid;
+    grid-template-columns: 1fr 2fr 1fr; */
+    align-items: center;
+    justify-items: center;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+    list-style: none;
+}
+
+footer a {
+    padding: 0 10px;
+    text-decoration: none;
+    font-size: 3.6rem;
+    color: white;
+}
