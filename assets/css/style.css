@@ -50,6 +50,31 @@ ul {
     list-style-type: none;
 }
 
+button {
+    border: 0;
+    padding: 1.6rem 3.2rem 1.6rem 3.2rem;
+    background-color: var(--orange);
+    color: white;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-weight: 500;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    box-shadow: var(--text-shadow-light);
+    border: 2px solid var(--orange);
+    transform: translateX(0);
+    transition: all 0.3s ease-in;
+}
+
+button:hover {
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+
+button:active {
+    background-color: white;
+    color: var(--orange);
+}
+
 /* Navigation */
 
 nav {
@@ -257,6 +282,70 @@ header h3 {
     shape-outside: circle(50%);
     margin: 0 3rem 1rem 0;
 }
+
+/* Sign up */
+
+/* Udemy Advanced CSS by Jonas Schmedtmann */
+#sign-up {
+    width: 80%;
+    min-height: 50rem;
+    margin: 5rem auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+    border-radius: 0.5rem;
+    box-shadow: 0 3rem 6rem rgb(0 0 0 / 30%);
+
+    display: grid;
+    align-items: center;
+}
+
+#sign-up {
+    background-image: linear-gradient(
+            105deg,
+            rgba(255, 255, 255, 0.9) 0%,
+            rgba(255, 255, 255, 0.8) 50%,
+            transparent 50%
+        ),
+        url(../images/form_bg.jpg);
+}
+
+form {
+    width: 50%;
+    margin: 5rem;
+}
+
+form p {
+    width: 80%;
+}
+
+form > * {
+    margin-bottom: 2.5rem;
+}
+
+input,
+textarea {
+    font-size: 1.5rem;
+    font-family: inherit;
+    color: inherit;
+    padding: 1.5rem 2rem;
+    margin-bottom: 2.4rem;
+    border-radius: 0.3rem;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-bottom: 3px solid transparent;
+    width: 80%;
+    display: block;
+    transition: all 0.3s;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+    border-bottom: 3px solid var(--orange);
+}
+
 
 /* Footer */
 
