@@ -2,9 +2,13 @@
 
 /* General styles */
 
+
 :root {
     --navy: #222;
     --orange: #ffa500;
+
+    --text-shadow-dark: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.7);
+    --text-shadow-light: 0.1rem 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
 }
 
 * {
@@ -121,6 +125,20 @@ header h2 {
 header h3 {
     font-size: 2.4rem;
 }
+
+/* Blurb */
+
+.blurb {
+    width: 60%;
+    margin: 7rem auto;
+    text-align: center;
+    line-height: 3rem;
+}
+
+.blurb p {
+    margin-bottom: 2.4rem;
+}
+
 
 /* Footer */
 
