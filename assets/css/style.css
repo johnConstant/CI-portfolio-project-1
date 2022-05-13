@@ -210,7 +210,53 @@ header h3 {
     background-size: cover;
 }
 
+/* Reviews */
 
+#review {
+    width: 70%;
+    margin: 5rem auto;
+    background-color: var(--navy);
+    padding: 5rem;
+    display: grid;
+    grid-template-columns: 90% 15%;
+    justify-content: center;
+    position: relative;
+}
+
+#review div {
+    padding-left: 5rem;
+}
+
+#review i {
+    font-size: 15rem;
+    color: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    right: 10rem;
+}
+
+#review p {
+    color: white;
+    padding-top: 3rem;
+    text-shadow: var(--text-shadow-light);
+}
+
+#review span {
+    display: block;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.8);
+    float: right;
+    padding: 3rem;
+}
+
+#review img {
+    border: 0.3rem solid white;
+    border-radius: 100%;
+    max-width: 15rem;
+    max-height: 15rem;
+    float: left;
+    shape-outside: circle(50%);
+    margin: 0 3rem 1rem 0;
+}
 
 /* Footer */
 
