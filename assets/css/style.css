@@ -45,3 +45,49 @@ a {
 ul {
     list-style-type: none;
 }
+
+/* Navigation */
+
+nav {
+    min-height: 10vh;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    justify-content: center;
+    align-items: center;
+}
+
+nav > * {
+    padding: 20px;
+}
+
+.logo a {
+    font-family: 'Monoton', cursive;
+    font-style: italic;
+    color: white;
+    font-weight: 500;
+    font-size: 5rem;
+    letter-spacing: 0.5rem;
+}
+
+.nav-links ul {
+    display: flex;
+    justify-content: end;
+    margin-right: 2rem;
+}
+
+.nav-links a {
+    padding: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links a:hover {
+    color: var(--orange);
+    transition: 0.8s ease;
+}
+
+#active {
+    color: var(--orange);
+    font-weight: 500;
+}
