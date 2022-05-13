@@ -92,6 +92,36 @@ nav > * {
     font-weight: 500;
 }
 
+/* Header */
+
+header {
+    background-image: url('../images/header_img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    height: 80vh;
+    padding: 20px;
+}
+
+header h2,
+header h3 {
+    color: white;
+    text-align: center;
+    text-shadow: var(--text-shadow-dark);
+}
+
+header h2 {
+    font-size: 7.2rem;
+}
+
+header h3 {
+    font-size: 2.4rem;
+}
+
 /* Footer */
 
 footer {
