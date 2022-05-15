@@ -127,7 +127,7 @@ nav > * {
 
 /* Header */
 
-header {
+/* header {
     background-image: url('../images/header_img.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -138,23 +138,50 @@ header {
     align-content: center;
     height: 80vh;
     padding: 20px;
+} */
+
+video {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
+}
+.video-wrapper {
+    border: 2px solid #000;
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header {
+    position: relative;
+    color: white;
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.6);
 }
 
-header h2,
-header h3 {
+.header h2,
+.header h3 {
     color: white;
     text-align: center;
     text-shadow: var(--text-shadow-dark);
 }
 
-header h2 {
+.header h2 {
     font-size: 12rem;
     margin-bottom: 0;
 }
 
-header h3 {
+.header h3 {
     font-size: 2.4rem;
 }
+
 
 /* Blurb */
 
