@@ -255,8 +255,22 @@ header h3 {
 
 /* Reviews */
 
-#review {
+#reviews {
+    overflow: hidden;
+}
+
+#slider {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100%, 1fr));
+    grid-gap: 5rem;
     width: 70%;
+    margin: auto;
+    /* overflow: hidden; */
+    animation: slider 18s infinite;
+}
+
+.review {
+    width: 100%;
     margin: 5rem auto;
     background-color: var(--navy);
     padding: 5rem;
@@ -266,24 +280,24 @@ header h3 {
     position: relative;
 }
 
-#review div {
+.review div {
     padding-left: 5rem;
 }
 
-#review i {
+.review i {
     font-size: 15rem;
     color: rgba(255, 255, 255, 0.2);
     position: absolute;
     right: 10rem;
 }
 
-#review p {
+.review p {
     color: white;
     padding-top: 3rem;
     text-shadow: var(--text-shadow-light);
 }
 
-#review span {
+.review span {
     display: block;
     font-weight: 100;
     color: rgba(255, 255, 255, 0.8);
@@ -291,7 +305,7 @@ header h3 {
     padding: 3rem;
 }
 
-#review img {
+.review img {
     border: 0.3rem solid white;
     border-radius: 100%;
     max-width: 15rem;
@@ -628,4 +642,27 @@ input[type='radio'] {
 #error h2 span {
     font-size: 50vh;
     line-height: 85%;
+}
+
+/* Animations */
+
+@keyframes slider {
+    0% {
+        transform: translateX(-100%);
+    }
+    32% {
+        transform: translateX(-100%);
+    }
+    34% {
+        transform: translateX(-200%);
+    }
+    65% {
+        transform: translateX(-200%);
+    }
+    67% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
 }
