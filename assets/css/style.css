@@ -437,6 +437,116 @@ footer a:hover {
     font-size: 1.4rem;
 }
 
+/* Menu page */
+
+/* Desktop menu */
+
+#desktop-menu {
+    display: grid;
+    grid-gap: 5rem;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+}
+
+.col1 > div,
+.col2 > div {
+    margin-top: 5rem;
+}
+
+#desktop-menu h2 {
+    border-bottom: 0.2rem solid var(--navy);
+}
+
+#desktop-menu h4 {
+    margin-bottom: 0;
+}
+
+/* Mobile menu */
+
+/* https://codepen.io/owlsky/pen/nXZaLJ */
+
+#mobile-menu {
+    display: none;
+    padding: 0 2rem 5rem 2rem;
+}
+
+#mobile-menu ul {
+    padding-left: 0;
+}
+input[type='radio'] {
+    display: none;
+}
+
+.a-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.a-container label {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: white;
+    background-color: #222;
+    border-bottom: 1px solid #ddd;
+
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.a-container label:after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 8px solid white;
+    border-right: 6px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 6px solid transparent;
+    position: absolute;
+    right: 10px;
+    top: 16px;
+}
+
+.a-container input:checked + label,
+.a-container label:hover {
+    color: orange;
+}
+
+.a-container input:checked + label:after {
+    border-top: 8px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 8px solid orange;
+    border-left: 6px solid transparent;
+    top: 6px;
+}
+
+.a-content {
+    padding: 0 20px 20px;
+    display: none;
+}
+
+.a-container input:checked ~ .a-content {
+    display: block;
+}
+
+.menu-item-title {
+    display: grid;
+    grid-template-columns: 70% 10%;
+    justify-content: space-between;
+}
+.menu-item-title h4 {
+    margin-bottom: 0;
+    margin-top: 2rem;
+}
+
 /* Gallery Page */
 
 #gallery {
