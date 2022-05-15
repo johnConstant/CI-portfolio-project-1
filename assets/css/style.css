@@ -90,6 +90,10 @@ nav > * {
     padding: 20px;
 }
 
+.logo {
+    padding-left: 3rem;
+}
+
 .logo a {
     font-family: 'Monoton', cursive;
     font-style: italic;
