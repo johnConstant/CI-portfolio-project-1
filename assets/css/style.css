@@ -167,18 +167,18 @@ header h3 {
 
 /* About */
 
-#about {
+.about {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
 }
 
-#about h3 {
+.about h3 {
     color: white;
     font-size: 3.6rem;
     text-shadow: var(--text-shadow-dark);
 }
 
-#about a,
+.about a,
 #error a {
     padding: 1.6rem 3.2rem 1.6rem 3.2rem;
     background-color: var(--orange);
@@ -192,29 +192,28 @@ header h3 {
     transition: all 0.3s ease-in;
 }
 
-#about a:hover,
+.about a:hover,
 #error a:hover {
     box-shadow: 0 0 0 rgba(0, 0, 0, 0);
 }
 
-#about a:hover > i {
+.about a:hover > i {
     transform: translateX(1rem);
 }
 
-#about a:active,
+.about a:active,
 #error a:active {
     background-color: white;
     color: var(--orange);
 }
 
-#about p {
+.about p {
     color: white;
     text-shadow: var(--text-shadow-light);
     margin: 2rem 0 5rem 0;
 }
 
-#panel1,
-#panel2 {
+.panel {
     display: grid;
     align-content: flex-end;
     padding: 0 10rem 5rem 5rem;
@@ -234,6 +233,20 @@ header h3 {
 #panel2 {
     background: #ccc url('../images/menu_panel.jpg') no-repeat center center;
     background-size: cover;
+}
+
+#chef-panel {
+    background: #ccc url('../images/chef_panel.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#waiter-panel {
+    background: #ccc url('../images/menu_panel.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#info-panel {
+    background-color: var(--navy);
 }
 
 /* Reviews */
