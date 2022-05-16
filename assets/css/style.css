@@ -663,28 +663,6 @@ input[type='radio'] {
 
 /* Animations */
 
-@keyframes slider {
-    0% {
-        transform: translateX(-100%);
-    }
-    32% {
-        transform: translateX(-100%);
-    }
-    34% {
-        transform: translateX(-200%);
-    }
-    65% {
-        transform: translateX(-200%);
-    }
-    67% {
-        transform: translateX(0%);
-    }
-    100% {
-        transform: translateX(0%);
-    }
-}
-
-
 /* Media Queries */
 
 @media screen and (max-width: 1000px) {
@@ -776,9 +754,13 @@ input[type='radio'] {
             ),
             url(../images/contact-us.jpg);
     }
-
+    
     #sign-up, #contact-us {
         width: 100%;
+    }
+
+    #locate-us {
+        margin: 5rem 0;
     }
 
     form {
