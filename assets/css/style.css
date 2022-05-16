@@ -850,6 +850,10 @@ input[type='radio'] {
         display: none;
     }
 
+    .gallery-container {
+        width: 90%;
+    }
+
     #locate-us {
         margin: 5rem 0;
         width: 100%;
