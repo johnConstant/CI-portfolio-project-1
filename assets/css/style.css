@@ -283,21 +283,11 @@ video {
 /* Reviews */
 
 #reviews {
-    overflow: hidden;
-}
-
-#slider {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(100%, 1fr));
-    grid-gap: 5rem;
-    width: 70%;
-    margin: auto;
-    /* overflow: hidden; */
-    animation: slider 18s infinite;
+    background-color: #888;
 }
 
 .review {
-    width: 100%;
+    width: 70%;
     margin: 5rem auto;
     background-color: var(--navy);
     padding: 5rem;
