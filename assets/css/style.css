@@ -590,10 +590,16 @@ input[type='radio'] {
     color:green;
 }
 
-.special {
+.special-wrapper {
     width: 80%;
     margin: 5rem auto;
-    border: .5rem solid beige;
+    padding: 1rem;
+    box-shadow: var(--text-shadow-light);
+    background-color: beige;
+}
+
+.special {
+    width: 100%;
     background-image: url('../images/meatballs_temp.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -605,7 +611,7 @@ input[type='radio'] {
     padding: 20px;
     color:white;
     text-shadow: 0 0 5px black;
-    box-shadow: var(--text-shadow-light);
+    box-shadow: inset 0 0 2000px rgba(0, 0, 0, 0.8);
 }
 
 .special h2, .special h4 {
