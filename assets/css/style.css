@@ -784,6 +784,10 @@ input[type='radio'] {
 
 
 @media screen and (max-width: 480px) {
+    #home-nav-btn {
+        display: none;
+    }
+    
     #locate-us {
         margin: 5rem 0;
         width: 100%;
