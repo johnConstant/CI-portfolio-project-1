@@ -792,4 +792,13 @@ input[type='radio'] {
     #sign-up, #contact-us {
         width: 100%;
     }
+
+    form {
+        margin: 0;
+        padding: 5rem;
+    }
+
+    form p, form input, form textarea {
+        width: 100%;
+    }
 }
