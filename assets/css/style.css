@@ -582,6 +582,14 @@ input[type='radio'] {
     margin-top: 2rem;
 }
 
+.spicy {
+    color: red
+}
+
+.vegetarian {
+    color:green;
+}
+
 .special {
     width: 80%;
     margin: 5rem auto;
