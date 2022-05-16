@@ -247,7 +247,7 @@ video {
 .panel {
     display: grid;
     align-content: flex-end;
-    padding: 0 10rem 5rem 5rem;
+    padding: 5rem;
     height: 60rem;
     box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
 }
@@ -759,10 +759,7 @@ input[type='radio'] {
     form {
         width: 80%;
     }
-    #chef-panel,
-    #waiter-panel {
-        order: -1;
-    }
+    
 }
 
 @media screen and (max-width: 800px) {
@@ -837,8 +834,16 @@ input[type='radio'] {
     #mobile-menu {
         display: block;
     }
+    
 }
 
+@media screen and (max-width: 640px) {
+
+    #chef-panel,
+    #waiter-panel {
+        order: -1;
+    }
+}
 
 @media screen and (max-width: 480px) {
     #home-nav-btn {
