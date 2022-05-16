@@ -582,6 +582,37 @@ input[type='radio'] {
     margin-top: 2rem;
 }
 
+.special {
+    width: 80%;
+    margin: 5rem auto;
+    border: .5rem solid beige;
+    background-image: url('../images/meatballs_temp.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    padding: 20px;
+    color:white;
+    text-shadow: 0 0 5px black;
+    box-shadow: var(--text-shadow-light);
+}
+
+.special h2, .special h4 {
+    color:white;
+}
+
+.special h4 {
+    font-size: 2.4rem;
+}
+
+
+.special h2 {
+    font-size: 6rem;
+}
+
 /* Gallery Page */
 
 #gallery {
