@@ -754,14 +754,6 @@ input[type='radio'] {
             ),
             url(../images/contact-us.jpg);
     }
-    
-    #sign-up, #contact-us {
-        width: 100%;
-    }
-
-    #locate-us {
-        margin: 5rem 0;
-    }
 
     form {
         width: 100%;
@@ -787,5 +779,17 @@ input[type='radio'] {
 
     #mobile-menu {
         display: block;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    #locate-us {
+        margin: 5rem 0;
+        width: 100%;
+    }
+  
+    #sign-up, #contact-us {
+        width: 100%;
     }
 }
