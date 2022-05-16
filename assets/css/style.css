@@ -748,6 +748,11 @@ input[type='radio'] {
         width: 80%;
     }
 
+    .review {
+        width: 100%;
+        margin: 3rem auto;
+    }
+
     #review i {
         right: 1.5rem;
     }
@@ -770,6 +775,10 @@ input[type='radio'] {
                 transparent 50%
             ),
             url(../images/contact-us.jpg);
+    }
+
+    #sign-up, #contact-us {
+        width: 100%;
     }
 
     form {
