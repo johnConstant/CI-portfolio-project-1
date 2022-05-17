@@ -46,6 +46,10 @@ a {
     color: var(--navy);
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 ul {
     list-style-type: none;
 }
@@ -698,7 +702,7 @@ input[type='radio'] {
     padding: 5rem;
 }
 
-#error h2 {
+#error h1 {
     background-image: url('../images/error2.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -709,7 +713,7 @@ input[type='radio'] {
     margin-bottom: 5rem;
 }
 
-#error h2 span {
+#error h1 span {
     font-size: 50vh;
     line-height: 85%;
 }
