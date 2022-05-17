@@ -144,14 +144,14 @@ header {
 
 }
 
-header h2,
+header h1,
 header h3 {
     color: white;
     text-align: center;
     text-shadow: var(--text-shadow-dark);
 }
 
-header h2 {
+header h1 {
     font-size: 12rem;
     margin-bottom: 0;
 }
