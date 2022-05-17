@@ -54,7 +54,7 @@ button {
     border: 0;
     padding: 1.6rem 3.2rem 1.6rem 3.2rem;
     background-color: var(--orange);
-    color: white;
+    color: var(--navy);
     font-size: 1.6rem;
     line-height: 1.5;
     font-weight: 500;
@@ -192,7 +192,8 @@ header h3 {
 #error a {
     padding: 1.6rem 3.2rem 1.6rem 3.2rem;
     background-color: var(--orange);
-    color: white;
+    color: var(--navy);
+    font-size: 2.4rem;
     font-weight: 500;
     border-radius: 0.5rem;
     text-transform: uppercase;
