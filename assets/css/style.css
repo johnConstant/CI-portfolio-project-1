@@ -140,6 +140,8 @@ header {
     align-content: center;
     height: 80vh;
     padding: 20px;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.8);
+
 }
 
 header h2,
@@ -225,7 +227,7 @@ header h3 {
     align-content: flex-end;
     padding: 5rem;
     height: 60rem;
-    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.8);
 }
 
 .panel-content {
