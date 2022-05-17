@@ -288,6 +288,7 @@ video {
 
 .review {
     width: 70%;
+    min-height: 33rem;
     margin: 5rem auto;
     background-color: var(--navy);
     padding: 5rem;
