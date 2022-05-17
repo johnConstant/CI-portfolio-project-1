@@ -40,22 +40,57 @@
 ## Project Goals 
 
 ### User Goals
+- Locate a restaurant in the heart of Cork City
+- Find the restaurant's menu clearly marked prices and dietary requirements
+- Find out restaurant information such as location and opening hours
+- Contact restaurant about parties or bookings
+- Find out history of restaurant and information about staff
 
 ### Site Owner Goals
+- Increase foot traffic
+- Promote the business on site and on social media
+- Allow customers to contact restaurant
+- Advertise weekly specials that are not always on menu
 
 ## User Experience
 
 ### Target Audience
+- Local customers looking for a new option
+- Tourists visiting the area looking for a restaurant
+- Groups looking for reservations or parties
 
 ### User Requrements and Expectations
+- A simple website with intuitive navigation
+- A way for users to easily find information about the restaurant
+- Good presentation and a visually appealing design regardless of screen size
+- A way to contact the business about bookings/reservations
+- Relevant content that is easy to digest
+- A website with accessibility best practices
+- A website with good performance and quick load times
 
 ### User Stories
 
 #### First-time User 
+1. As a first time user I want to know what food the restaurant serves
+2. As a first time user I want to know the prices on the food
+3. As a first time user I want to know if they cater to special dietary requirements
+4. As a first time user I want to know where to find the restaurant
+5. As a first time user I want to know when the restaurant is open
+6. As a first time user I want to know what other people think of this restaurant
+7. As a first time user I would like to see the food that is served at the restaurant
 
 #### Returning User
+8. As a returning user I want to know more about the restaurant and it's staff
+9. As a returning user I want to connect with the restaurant on social media
+10. As a returning user I want to know how to contact the restaurant
+11. As a returning user I want to contact the restaurant about a booking or reservation
+12. As a returning user I want to know about any new/special dishes being served
 
 #### Site Owner 
+13. As the site owner I want to increase my social media presence
+14. As the site owner I want to advertise new dishes
+15. As the site owner I want customers to being able to contact us
+16. As the site owner I want to advertise when we are open
 
 ## Design
 
