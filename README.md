@@ -1,7 +1,7 @@
 # Il Cibo
 (Developer: John Constant)
 
-![Mockup image](docs/am_i_responsive.jpg)
+![Mockup image](docs/am_i_responsive.png)
 
 [Live webpage](https://johnconstant.github.io/CI_PP1_Il_Cibo/index.html)
 
@@ -158,29 +158,29 @@ The page is structured in a well know, recognizable, user friendly, and easy to 
 ### HTML Validation
 The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors no warnings to show.
 <details><summary>Home</summary>
-<img src="docs/validation/html_validator_index.jpg">
+<img src="docs/validation/html_validator_index.png">
 </details>
 <details><summary>About</summary>
-<img src="docs/validation/html_validator_about.jpg">
+<img src="docs/validation/html_validator_about.png">
 </details>
 <details><summary>Menu</summary>
-<img src="docs/validation/html_validator_menu.jpg">
+<img src="docs/validation/html_validator_menu.png">
 </details>
 <details><summary>Gallery</summary>
-<img src="docs/validation/html_validator_gallery.jpg">
+<img src="docs/validation/html_validator_gallery.png">
 </details>
 <details><summary>Contact</summary>
-<img src="docs/validation/html_validator_contact.jpg">
+<img src="docs/validation/html_validator_contact.png">
 </details>
 
 ### CSS Validation
 The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website.
 I validated by URL and through a file upload oy my style.css file and passed bith tests with no errors.
 <details><summary>whole page</summary>
-<img src="docs/validation/CSS_validator_URL.jpg">
+<img src="docs/validation/CSS_validator_URL.png">
 </details>
 <details><summary>style.css</summary>
-<img src="docs/validation/CSS_validator_file.jpg">
+<img src="docs/validation/CSS_validator_file.png">
 </details>
 
 ### Accessibility

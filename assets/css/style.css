@@ -488,7 +488,7 @@ footer a:hover {
     border-bottom: 0.2rem solid var(--navy);
 }
 
-#desktop-menu h4 {
+#desktop-menu h3 {
     margin-bottom: 0;
 }
 
@@ -565,7 +565,7 @@ input[type='radio'] {
     grid-template-columns: 70% 10%;
     justify-content: space-between;
 }
-.menu-item-title h4 {
+.menu-item-title h3 {
     margin-bottom: 0;
     margin-top: 2rem;
 }
@@ -612,11 +612,11 @@ input[type='radio'] {
 
 }
 
-.special h2, .special h4, .reccommendation h2, .reccommendation h4  {
+.special h2, .special h3, .reccommendation h2, .reccommendation h3  {
     color:white;
 }
 
-.special h4, .reccommendation h4 {
+.special h3, .reccommendation h3 {
     font-size: 2.4rem;
 }
 
@@ -832,7 +832,7 @@ input[type='radio'] {
         order: -1;
     }
 
-    .special h4, .reccommendation h4 {
+    .special h3, .reccommendation h3 {
         font-size: 2rem;
     }
     
