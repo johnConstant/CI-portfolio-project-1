@@ -2,7 +2,6 @@
 
 /* General styles */
 
-
 :root {
     --navy: #222;
     --orange: #EB703F;
@@ -109,14 +108,12 @@ nav > * {
     letter-spacing: 0.5rem;
 }
 
-.nav-links ul {
-    display: flex;
+.nav-links {
     justify-content: end;
-    margin-right: 2rem;
 }
 
 .nav-links a {
-    padding: 0 10px;
+    margin: 0 2rem;
     text-decoration: none;
     color: white;
 }
@@ -131,7 +128,14 @@ nav > * {
     font-weight: 500;
 }
 
-/* Header */
+.navbar-toggler {
+    font-size: 3.6rem;
+    margin: 1.5rem;
+}
+
+.bg-dark {
+    background-color: var(--navy) !important;
+}
 
 /* Header */
 
@@ -166,7 +170,6 @@ header h1 {
 header h2 {
     font-size: 2.4rem;
 }
-
 
 /* Blurb */
 
@@ -408,11 +411,9 @@ textarea:focus {
 
 footer {
     min-height: 15vh;
-    background-color: black;
+    background-color: var(--navy);
     color: white;
     font-weight: bold;
-    /* display: grid;
-    grid-template-columns: 1fr 2fr 1fr; */
     align-items: center;
     justify-items: center;
 }
@@ -456,6 +457,9 @@ footer a:hover {
         #285aeb 90%
     );
     background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }
 
 #youtube:hover {
@@ -645,7 +649,6 @@ input[type='radio'] {
 
 .gallery-container div {
     padding: 0.5rem;
-    /* background-color: var(--navy); */
     box-shadow: var(--text-shadow-light);
 }
 
@@ -707,7 +710,6 @@ input[type='radio'] {
     font-size: 50vh;
     line-height: 85%;
 }
-/* Animations */
 
 /* Media Queries */
 
