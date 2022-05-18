@@ -95,9 +95,13 @@
 ## Design
 
 ### Design Choices
+I designed the site to give the user the feeling of what it is like in a busy restaurant. I want the food to be presented professionally in the images and want to emphasise the use of fresh healthy ingredients in the dishes. The images of the staff show them working happily to illustrate the love and passion they have for the job.
 
 ### Colour
+For the colour sheme warm brown tones were chosen to match the images on the page and also the colour theme of the actual restaurant. To narrow down the colours I used Adobe Color. After deciding on the colour I tested them on WebAIM to make sure the contrast between them was right.
+<br>
 
+![Colour scheme](docs/features/adobe_colour.png)
 ### Fonts
 
 ### Structure
