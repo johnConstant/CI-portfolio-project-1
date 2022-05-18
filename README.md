@@ -1,7 +1,7 @@
 # Il Cibo
 (Developer: John Constant)
 
-![Mockup image](docs/am_i_responsive.png)
+![Mockup image](./docs/am_I_responsive.png)
 
 [Live webpage](https://johnconstant.github.io/CI_PP1_Il_Cibo/index.html)
 
@@ -87,7 +87,7 @@
 12. As a returning user I want to know about any new/special dishes being served
 
 #### Site Owner 
-13. As the site owner I want to increase my social media presence
+13. As the site owner I want to increase my social media presence and email list audience
 14. As the site owner I want to advertise new dishes
 15. As the site owner I want customers to being able to contact us
 16. As the site owner I want to advertise when we are open
@@ -206,19 +206,59 @@ The W3C Markup Validation Service was used to validate the HTML of the website. 
 ### Performance 
 
 ### Performing tests on various devices 
+The website was tested on the following devices:
+
+- MacBook Pro
+- Dell on latest Windows OS
+- Nord One Plus
+
+In addition, the website was tested using Google Chrome Developer Tools Device Toggeling option for all available device options.
 
 ### Browser compatability
+The website has also been tested in the following browsers.
+
+- Google Chrome
+- Safari
+- Firefox
+- Microsoft Edge
+- Android Native Browser
+- Google Chrome on Android
 
 ### Testing user stories
 
 ## Bugs
 
 ## Deployment
+In the GitHub repository navigate to the Settings tab
+1. On the left hand menu select Pages
+2. For the source select Branch: main
+3. After the webpage refreshes automaticaly you will see a ribbon on the top saying: "Your site is published at https://johnconstant.github.io/CI_PP1_Il_Cibo/index.html"
+
+You can for fork the repository by following these steps:
+
+1. Go to the GitHub repository
+2. Click on Fork button in upper right hand corner
+
+You can clone the repository by following these steps:
+
+1. Go to the GitHub repository
+2. Locate the Code button above the list of files and click it
+3. Select if you prefere to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard
+4. Open Git Bash
+5. Change the current working directory to the one where you want the cloned directory
+6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY) 7.Press Enter to create your local clone.
 
 ## Credits
 
 ### Media
+I got my images from Pexels.com and the menu panel image on the home page from Shutterstock. I used icons from Font Awesome.
   
 ### Code
+- Home page reviews carousel was done the CSS and Javascript framework, Bootstrap v5.2
+- My form styling came from a Udemy course, (Advanced CSS and SASS)[https://www.udemy.com/course/advanced-css-and-sass/], by Jonas Schmedtman
+- Removing the form labels in an accessible way came from (CSS Tricks)[https://css-tricks.com/html-inputs-and-labels-a-love-story/]
+- The Instagram gradient colours were taken from (Stack Overflow)[https://stackoverflow.com/questions/37751375/instagram-new-logo-css-background] and applied using another tutorial on (CSS Tricks)[https://css-tricks.com/snippets/css/gradient-text/]
+- The menu page when displayed on mobile came from (CodePen)[https://codepen.io/owlsky/pen/nXZaLJ] courtesy of Owlsky
 
 ## Acknowledgements
+I would like to thank my mentor, Mohammad Shami, for all of his help and guidance during this project.
