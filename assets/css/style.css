@@ -699,6 +699,7 @@ input[type='radio'] {
     background-size: cover;
     background-clip: text;
     color: transparent;
+    -webkit-background-clip: text;
     margin-bottom: 5rem;
 }
 

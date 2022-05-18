@@ -184,6 +184,24 @@ I validated by URL and through a file upload oy my style.css file and passed bit
 </details>
 
 ### Accessibility
+I used the Wave Accesibility Evaluation Tool to validate the pages for accessibility issues. I validated each page without any errors and only 1 reported warning
+
+The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors no warnings to show.
+<details><summary>Home</summary>
+<img src="docs/validation/accessibility_index.png">
+</details>
+<details><summary>About</summary>
+<img src="docs/validation/accessibility_about.png">
+</details>
+<details><summary>Menu</summary>
+<img src="docs/validation/accessibility_menu.png">
+</details>
+<details><summary>Gallery</summary>
+<img src="docs/validation/accessibility_gallery.png">
+</details>
+<details><summary>Contact</summary>
+<img src="docs/validation/accessibility_contact.png">
+</details>
 
 ### Performance 
 
