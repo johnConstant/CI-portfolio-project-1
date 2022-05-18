@@ -313,7 +313,6 @@ header h3 {
     max-width: 15rem;
     max-height: 15rem;
     float: left;
-    shape-outside: circle(50%);
     margin: 0 3rem 1rem 0;
 }
 
@@ -395,7 +394,6 @@ textarea:focus {
 /* https://css-tricks.com/html-inputs-and-labels-a-love-story/ */
 .hidden-label {
         border-width: 0 !important;
-        clip: rect(1px, 1px, 1px, 1px) !important;
         height: 1px !important;
         overflow: hidden !important;
         padding: 0 !important;
@@ -458,8 +456,6 @@ footer a:hover {
         #285aeb 90%
     );
     background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 #youtube:hover {
@@ -527,12 +523,6 @@ input[type='radio'] {
     color: white;
     background-color: #222;
     border-bottom: 1px solid #ddd;
-
-    -webkit-transition: all 0.2s ease;
-    -moz-transition: all 0.2s ease;
-    -ms-transition: all 0.2s ease;
-    -o-transition: all 0.2s ease;
-    transition: all 0.2s ease;
 }
 
 .a-container label:after {
@@ -709,7 +699,6 @@ input[type='radio'] {
     background-size: cover;
     background-clip: text;
     color: transparent;
-    -webkit-background-clip: text;
     margin-bottom: 5rem;
 }
 
@@ -717,7 +706,6 @@ input[type='radio'] {
     font-size: 50vh;
     line-height: 85%;
 }
-
 /* Animations */
 
 /* Media Queries */
