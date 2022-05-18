@@ -844,10 +844,6 @@ input[type='radio'] {
 }
 
 @media screen and (max-width: 480px) {
-    #home-nav-btn {
-        display: none;
-    }
-
     .gallery-container {
         width: 90%;
     }
