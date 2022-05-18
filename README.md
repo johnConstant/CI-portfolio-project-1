@@ -1,7 +1,7 @@
 # Il Cibo
 (Developer: John Constant)
 
-![Mockup image](docs/am-i-responsive.jpg)
+![Mockup image](docs/am_i_responsive.jpg)
 
 [Live webpage](https://johnconstant.github.io/CI_PP1_Il_Cibo/index.html)
 
@@ -98,13 +98,23 @@
 I designed the site to give the user the feeling of what it is like in a busy restaurant. I want the food to be presented professionally in the images and want to emphasise the use of fresh healthy ingredients in the dishes. The images of the staff show them working happily to illustrate the love and passion they have for the job.
 
 ### Colour
-For the colour sheme warm brown tones were chosen to match the images on the page and also the colour theme of the actual restaurant. To narrow down the colours I used Adobe Color. After deciding on the colour I tested them on WebAIM to make sure the contrast between them was right.
+I chose a dark grey and orange as the primary colours for my website and developed the site with these colours. After completing development I tested them on WebAIM to make sure the contrast between them was right. Unfortunately the contrast between my original choices was not high enough so I adjusted the shade of orange using Adobe Colour.
 <br>
 
 ![Colour scheme](docs/features/adobe_colour.png)
+
 ### Fonts
+My font are coming in from Google Fonts and were chosen for the clean crisp look you expect from a professional kitchen and restaurant.
+I used Montserrat for the body of the website and Monoton for the Logo.
 
 ### Structure
+The page is structured in a well know, recognizable, user friendly, and easy to learn way. Upon arriving to the website the user sees a familiar type of navigation bar with the restaurant logo on the left side and the navigation links to the right. The website consists of five separate pages:
+
+- A homepage with an introduction to the restaurant, menu and team.
+- An about page with the About Us and Meet the Chef
+- A menu page with specials and dietary restrictions clearly marked
+- A image gallery with images showing off the food, restaurant and staff
+- A contact page with a contact form, a map and information about the bussines section
 
 ### Wireframes
 
@@ -131,14 +141,47 @@ For the colour sheme warm brown tones were chosen to match the images on the pag
 - CSS
 
 ### Frameworks & Tools
+- Bootstrap v5.2
+- GitHub
+- Gitpod
+- Tinypng
+- Photoshop
+- Balsamiq
+- Google Fonts
+- Adobe Color
+- Font Awsome
 
 ## Features
 
 ## Validation
 
 ### HTML Validation
+The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors no warnings to show.
+<details><summary>Home</summary>
+<img src="docs/validation/html_validator_index.jpg">
+</details>
+<details><summary>About</summary>
+<img src="docs/validation/html_validator_about.jpg">
+</details>
+<details><summary>Menu</summary>
+<img src="docs/validation/html_validator_menu.jpg">
+</details>
+<details><summary>Gallery</summary>
+<img src="docs/validation/html_validator_gallery.jpg">
+</details>
+<details><summary>Contact</summary>
+<img src="docs/validation/html_validator_contact.jpg">
+</details>
 
 ### CSS Validation
+The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website.
+I validated by URL and through a file upload oy my style.css file and passed bith tests with no errors.
+<details><summary>whole page</summary>
+<img src="docs/validation/CSS_validator_URL.jpg">
+</details>
+<details><summary>style.css</summary>
+<img src="docs/validation/CSS_validator_file.jpg">
+</details>
 
 ### Accessibility
 
