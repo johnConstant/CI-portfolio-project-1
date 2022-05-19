@@ -41,7 +41,7 @@
 
 ### User Goals
 - Locate a restaurant in the heart of Cork City
-- Find the restaurant's menu clearly marked prices and dietary requirements
+- Find the restaurant's menu clearly marked with prices and dietary requirements
 - Find out restaurant information such as location and opening hours
 - Contact restaurant about parties or bookings
 - Find out history of restaurant and information about staff
@@ -216,6 +216,30 @@ The menu page also contanis a panel for advertising the daily/weekly special. Th
 
 ![Specials Panel](docs/features/feature_special.png)
 
+### Image Gallery
+
+The gallery page contains images on the restaurant, food being made and the restaurant itself. This helps to illustrate the quality of the food, the fact that the food is hand made and the atmosphere within the restaurant. The gallery is fully responsive and the images columns decrease as the screen size does.
+
+![Gallery](docs/features/feature_gallery.png)
+
+### Opening Hours
+
+On the contact page the user can find information about how to contact us such as the phone number and email address if they would like to contact us directly. It also has an area with the Opening Hours to let them know when we are open.
+
+![Opening Hours](docs/features/feature_map_hours.png)
+
+### Map
+
+I have also embedded a Google map on the contact page providing guests not familiar with the city or location with a way to find the restaurant. The map is fully interactive allowing guests to scroll, zoom and even get directions from their current location.
+
+![Map](docs/features/feature_map_hours.png)
+
+### Contact Form
+
+The contact page also includes an additional form should the guest want to contact us through the website. This gives the guest an alternative way of contacting the restaurant apart from traditional methods such as phone or email.
+
+![Contact Us](docs/features/feature_contact.png)
+
 ## Validation
 
 ### HTML Validation
@@ -290,6 +314,11 @@ The website has also been tested in the following browsers.
 ### Testing user stories
 
 ## Bugs
+
+| **Bug** | **Fix** |
+| ----------- | ----------- |
+| Instagram footer link transition not working | Bug remains unfixed |
+| Info panel button icon transition not working | Bug remains unfixed |
 
 ## Deployment
 In the GitHub repository navigate to the Settings tab
