@@ -158,7 +158,9 @@ Featured on all six pages
 The navbar is fully responsive and changes to a toggler (hamburger menu) on smaller screens and includes links to the About page, Menu page, Gallery and Contact us page. Clicking on the logo will bring you back to the Home page. This was done using the bootstrap v5.2 CSS and Javascript framework. It allows users to easily navigate the page, it is very simple but also highly intuitive.
 The link to the current page is highlighted with orange used throughout the design.
 
-![Navigation](docs/features/feature_nav_bar.png)
+![Desktop Navigation](docs/features/feature_nav_bar.png)
+
+![Mobile Navigation](docs/features/feature_nav_bar_mobile.png)
 
 ### Home page header image
 Each page is capped with a header image, title and subtitle. The picture was chosen as I felt it clearly demonstrates the purpose of the website, highlighting fresh food. The title and subtitle explains this further. The fonts were chosen as they are clean, crisp and similar fonts were used for restaurant websites in my research.
