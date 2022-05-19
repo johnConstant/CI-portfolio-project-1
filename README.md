@@ -144,7 +144,6 @@ The page is structured in a well know, recognizable, user friendly, and easy to 
 - Bootstrap v5.2
 - GitHub
 - Gitpod
-- Tinypng
 - Photoshop
 - Balsamiq
 - Google Fonts
@@ -152,6 +151,46 @@ The page is structured in a well know, recognizable, user friendly, and easy to 
 - Font Awsome
 
 ## Features
+
+### Navigation
+
+Featured on all six pages
+The navbar is fully responsive and changes to a toggler (hamburger menu) on smaller screens and includes links to the About page, Menu page, Gallery and Contact us page. Clicking on the logo will bring you back to the Home page. This was done using the bootstrap v5.2 CSS and Javascript framework. It allows users to easily navigate the page, it is very simple but also highly intuitive.
+The link to the current page is highlighted with orange used throughout the design.
+
+![Navigation](docs/features/feature_nav_bar.png)
+
+### Home page header image
+Each page is capped with a header image, title and subtitle. The picture was chosen as I felt it clearly demonstrates the purpose of the website, highlighting fresh food. The title and subtitle explains this further. The fonts were chosen as they are clean, crisp and similar fonts were used for restaurant websites in my research.
+
+![Header](docs/features/feature_header.png)
+
+### Blurb Section
+The Blurb section allows me to introduce the users to each page and gives them some more detail about the restaurant. Messages are written in an easy-going, relaxed tone of voice to illustrate the atmosphere guests can expect upon arrival to the restaurant. The font is clean and crisp. I have increased the line height to emphasise the message coming from this section.
+
+![Blurb](docs/features/feature_blurb.png)
+
+### Home Page Info panels
+The panels on the home page allow us to redirect the user to the most important sections of the website. The first panel links to the About Page where the user is introduced to the team. The second panel brings the user to the Menu page where they can see the menu items available, their accompanying prices and dietary restrictions. Each panel contains a heading element, brief description and button. The button has a hover and active state supplying the user with the expected feedback.
+
+![Info Panels](docs/features/feature_info.png)
+
+### Review Carousel
+The home page has a carousel which contains past visitors reviews about the restaurant. The carousel was created using Bootstrap v5.2 and contains controls to move the slides forwards and backwards as well as an indicator below as to which slide you are currently viewing. The slides will move themselves after a specified amount of time if the user does not interact with it.
+
+![Reviews Carousel](docs/features/feature_reviews_carousel.png)
+
+### Newsletter Sign Up Form
+
+At the bottom of the home page the user can sign up to monthly email list using a Sign Up form. The image indicates the type of content you might receive by illustrating a special dish. The form contains basic validation on it's inputs and cannot be submitted without the required fields. Each field supplies the user with feedback about which field is being utilised.
+
+![Sign Up Form](docs/features/feature_signUp.png)
+
+### Footer
+
+Each of the pages contains a footer navigation with links to the restaurant's social media accounts. The links consist of the particular social media site's icon and a hover effect in the social media sites colour. Each link contains an aria-label to account for the lack of text within the link to increase accessibility.
+
+![Footer](docs/features/feature_footer.png)
 
 ## Validation
 
@@ -254,6 +293,7 @@ You can clone the repository by following these steps:
 I got my images from Pexels.com and the menu panel image on the home page from Shutterstock. I used icons from Font Awesome.
   
 ### Code
+- Hamburger style navigation comes from the Bootstrap v5.2 CSS and Javascript framework
 - Home page reviews carousel was done the CSS and Javascript framework, Bootstrap v5.2
 - My form styling came from a Udemy course, (Advanced CSS and SASS)[https://www.udemy.com/course/advanced-css-and-sass/], by Jonas Schmedtman
 - Removing the form labels in an accessible way came from (CSS Tricks)[https://css-tricks.com/html-inputs-and-labels-a-love-story/]
