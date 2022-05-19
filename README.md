@@ -171,7 +171,7 @@ The Blurb section allows me to introduce the users to each page and gives them s
 ![Blurb](docs/features/feature_blurb.png)
 
 ### Home Page Info panels
-The panels on the home page allow us to redirect the user to the most important sections of the website. The first panel links to the About Page where the user is introduced to the team. The second panel brings the user to the Menu page where they can see the menu items available, their accompanying prices and dietary restrictions. Each panel contains a heading element, brief description and button. The button has a hover and active state supplying the user with the expected feedback.
+The panels on the home page allow us to redirect the user to the most important sections of the website. The first panel links to the About Page where the user is introduced to the team. The second panel brings the user to the Menu page where they can see the menu items available, their accompanying prices and dietary restrictions. Each panel contains a heading element, brief description and button. The button has a hover and active state supplying the user with the expected feedback. The panels stack with the image over the text on tablet and mobile screens.
 
 ![Info Panels](docs/features/feature_info.png)
 
@@ -191,6 +191,28 @@ At the bottom of the home page the user can sign up to monthly email list using 
 Each of the pages contains a footer navigation with links to the restaurant's social media accounts. The links consist of the particular social media site's icon and a hover effect in the social media sites colour. Each link contains an aria-label to account for the lack of text within the link to increase accessibility.
 
 ![Footer](docs/features/feature_footer.png)
+
+### Meet the Chef
+The About Page contains a section about the chef. This includes two panels, one with an image and the other with further information about the chef. This expands on the information available from the home page info panel. The panels stack with the image over the text on tablet and mobile screens.
+
+![Meet the Chef](docs/features/feature_chef.png)
+
+### Our Team
+The About Page contains a section about our team/staff. This includes two panels, one with an image and the other with further information about the staff. This allows the user to find out more about the staf and the standards the restaurant keeps.The panels stack with the image over the text on tablet and mobile screens.
+
+![Our Team](docs/features/feature_team.png)
+
+### Menu
+The menu page clearly lists all of the items on offer at any given time. Prices are clearly listed alongside the respective item. Items with special dietary restrictions are marked with a relevant icon. This menu is fully responsive. On mobile it collapses into accordion sections to avoid excessive scrolling for the user and improve the user experience. 
+
+![Desktop Menu](docs/features/feature_menu_desktop.png)
+
+![Mobile Menu](docs/features/feature_menu_mobile.png)
+
+### Specials Panel
+The menu page also contanis a panel for advertising the daily/weekly special. The panel allows for the inclusion of an image to illustrate new dishes to guests. The price and description are clearly marked. This panel can be added and changed as many times as necessary. A second instance of the panel exists on the page for the Chef's recommendation.
+
+![Specials Panel](docs/features/feature_special.png)
 
 ## Validation
 
