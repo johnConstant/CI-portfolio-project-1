@@ -707,7 +707,7 @@ input[type='radio'] {
 }
 
 #error h1 span {
-    font-size: 50vh;
+    font-size: 25rem;
     line-height: 85%;
 }
 
@@ -812,10 +812,11 @@ input[type='radio'] {
         display: grid;
         justify-content: center;
         align-items: center;
+        align-content: center;
     }
 
-    #error h2 span {
-        font-size: 25vh;
+    #error h1 span {
+        font-size: 20rem;
     }
 
     #desktop-menu {
@@ -839,9 +840,12 @@ input[type='radio'] {
         font-size: 2rem;
     }
     
-    
     .special h2, .reccommendation h2 {
         font-size: 5rem;
+    }
+
+    #error h1 span {
+        font-size: 15rem;
     }
     
 }
@@ -868,5 +872,9 @@ input[type='radio'] {
 
     form p, form input, form textarea {
         width: 100%;
+    }
+
+    #error h2 span {
+        font-size: 7.5rem;
     }
 }
