@@ -119,22 +119,22 @@ The page is structured in a well know, recognizable, user friendly, and easy to 
 ### Wireframes
 
 <details><summary>Home</summary>
-<img src="docs/wireframes/wireframes_index.png">
+<img src="docs/wireframes/wireframe_index.png">
 </details>
 <details><summary>About</summary>
-<img src="docs/wireframes/wireframes_about.png">
+<img src="docs/wireframes/wireframe_about.png">
 </details>
 <details><summary>Menu</summary>
-<img src="docs/wireframes/wireframes_menu.png">
+<img src="docs/wireframes/wireframe_menu.png">
 </details>
 <details><summary>Gallery</summary>
-<img src="docs/wireframes/wireframes_gallery.png">
+<img src="docs/wireframes/wireframe_gallery.png">
 </details>
 <details><summary>Contact</summary>
-<img src="docs/wireframes/wireframes_contact.png">
+<img src="docs/wireframes/wireframe_contact.png">
 </details>
-<details><summary>Contact</summary>
-<img src="docs/wireframes/wireframes_404.png">
+<details><summary>404</summary>
+<img src="docs/wireframes/wireframe_404.png">
 </details>
 
 ## Technologies Used
