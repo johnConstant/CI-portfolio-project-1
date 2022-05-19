@@ -118,21 +118,24 @@ The page is structured in a well know, recognizable, user friendly, and easy to 
 
 ### Wireframes
 
-<!-- <details><summary>Home</summary>
-<img src="docs/wireframes/wireframes-homepage.png">
+<details><summary>Home</summary>
+<img src="docs/wireframes/wireframes_index.png">
 </details>
 <details><summary>About</summary>
-<img src="docs/wireframes/wireframes-about.png">
+<img src="docs/wireframes/wireframes_about.png">
 </details>
 <details><summary>Menu</summary>
-<img src="docs/wireframes/wireframes-menu.png">
+<img src="docs/wireframes/wireframes_menu.png">
 </details>
 <details><summary>Gallery</summary>
-<img src="docs/wireframes/wireframes-gallery.png">
+<img src="docs/wireframes/wireframes_gallery.png">
 </details>
 <details><summary>Contact</summary>
-<img src="docs/wireframes/wireframes-contact.png">
-</details> -->
+<img src="docs/wireframes/wireframes_contact.png">
+</details>
+<details><summary>Contact</summary>
+<img src="docs/wireframes/wireframes_404.png">
+</details>
 
 ## Technologies Used
 
@@ -165,20 +168,28 @@ The link to the current page is highlighted with orange used throughout the desi
 ### Home page header image
 Each page is capped with a header image, title and subtitle. The picture was chosen as I felt it clearly demonstrates the purpose of the website, highlighting fresh food. The title and subtitle explains this further. The fonts were chosen as they are clean, crisp and similar fonts were used for restaurant websites in my research.
 
+User stories covered: 1, 7
+
 ![Header](docs/features/feature_header.png)
 
 ### Blurb Section
 The Blurb section allows me to introduce the users to each page and gives them some more detail about the restaurant. Messages are written in an easy-going, relaxed tone of voice to illustrate the atmosphere guests can expect upon arrival to the restaurant. The font is clean and crisp. I have increased the line height to emphasise the message coming from this section.
+
+User stories covered: 8
 
 ![Blurb](docs/features/feature_blurb.png)
 
 ### Home Page Info panels
 The panels on the home page allow us to redirect the user to the most important sections of the website. The first panel links to the About Page where the user is introduced to the team. The second panel brings the user to the Menu page where they can see the menu items available, their accompanying prices and dietary restrictions. Each panel contains a heading element, brief description and button. The button has a hover and active state supplying the user with the expected feedback. The panels stack with the image over the text on tablet and mobile screens.
 
+User stories covered: 1, 7, 8
+
 ![Info Panels](docs/features/feature_info.png)
 
 ### Review Carousel
 The home page has a carousel which contains past visitors reviews about the restaurant. The carousel was created using Bootstrap v5.2 and contains controls to move the slides forwards and backwards as well as an indicator below as to which slide you are currently viewing. The slides will move themselves after a specified amount of time if the user does not interact with it.
+
+User stories covered: 6
 
 ![Reviews Carousel](docs/features/feature_reviews_carousel.png)
 
@@ -186,26 +197,36 @@ The home page has a carousel which contains past visitors reviews about the rest
 
 At the bottom of the home page the user can sign up to monthly email list using a Sign Up form. The image indicates the type of content you might receive by illustrating a special dish. The form contains basic validation on it's inputs and cannot be submitted without the required fields. Each field supplies the user with feedback about which field is being utilised.
 
+User stories covered: 13
+
 ![Sign Up Form](docs/features/feature_signUp.png)
 
 ### Footer
 
 Each of the pages contains a footer navigation with links to the restaurant's social media accounts. The links consist of the particular social media site's icon and a hover effect in the social media sites colour. Each link contains an aria-label to account for the lack of text within the link to increase accessibility.
 
+User stories covered: 9, 13
+
 ![Footer](docs/features/feature_footer.png)
 
 ### Meet the Chef
 The About Page contains a section about the chef. This includes two panels, one with an image and the other with further information about the chef. This expands on the information available from the home page info panel. The panels stack with the image over the text on tablet and mobile screens.
+
+User stories covered: 1, 8
 
 ![Meet the Chef](docs/features/feature_chef.png)
 
 ### Our Team
 The About Page contains a section about our team/staff. This includes two panels, one with an image and the other with further information about the staff. This allows the user to find out more about the staf and the standards the restaurant keeps.The panels stack with the image over the text on tablet and mobile screens.
 
+User stories covered: 8
+
 ![Our Team](docs/features/feature_team.png)
 
 ### Menu
 The menu page clearly lists all of the items on offer at any given time. Prices are clearly listed alongside the respective item. Items with special dietary restrictions are marked with a relevant icon. This menu is fully responsive. On mobile it collapses into accordion sections to avoid excessive scrolling for the user and improve the user experience. 
+
+User stories covered: 1, 2, 3,
 
 ![Desktop Menu](docs/features/feature_menu_desktop.png)
 
@@ -214,17 +235,23 @@ The menu page clearly lists all of the items on offer at any given time. Prices 
 ### Specials Panel
 The menu page also contanis a panel for advertising the daily/weekly special. The panel allows for the inclusion of an image to illustrate new dishes to guests. The price and description are clearly marked. This panel can be added and changed as many times as necessary. A second instance of the panel exists on the page for the Chef's recommendation.
 
+User stories covered: 1, 2, 3, 7, 12, 14
+
 ![Specials Panel](docs/features/feature_special.png)
 
 ### Image Gallery
 
 The gallery page contains images on the restaurant, food being made and the restaurant itself. This helps to illustrate the quality of the food, the fact that the food is hand made and the atmosphere within the restaurant. The gallery is fully responsive and the images columns decrease as the screen size does.
 
+User stories covered: 1, 7
+
 ![Gallery](docs/features/feature_gallery.png)
 
 ### Opening Hours
 
-On the contact page the user can find information about how to contact us such as the phone number and email address if they would like to contact us directly. It also has an area with the Opening Hours to let them know when we are open.
+On the contact page the user can find information about how to contact us such as the phone number, address and email address if they would like to contact us directly. It also has an area with the Opening Hours to let them know when we are open.
+
+User stories covered: 4, 5, 10, 16
 
 ![Opening Hours](docs/features/feature_map_hours.png)
 
@@ -232,11 +259,15 @@ On the contact page the user can find information about how to contact us such a
 
 I have also embedded a Google map on the contact page providing guests not familiar with the city or location with a way to find the restaurant. The map is fully interactive allowing guests to scroll, zoom and even get directions from their current location.
 
+User stories covered: 4
+
 ![Map](docs/features/feature_map_hours.png)
 
 ### Contact Form
 
 The contact page also includes an additional form should the guest want to contact us through the website. This gives the guest an alternative way of contacting the restaurant apart from traditional methods such as phone or email.
+
+User stories covered: 10, 11, 15
 
 ![Contact Us](docs/features/feature_contact.png)
 
