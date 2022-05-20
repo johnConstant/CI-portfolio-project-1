@@ -290,6 +290,9 @@ The W3C Markup Validation Service was used to validate the HTML of the website. 
 <details><summary>Contact</summary>
 <img src="docs/validation/html_validator_contact.png">
 </details>
+<details><summary>404</summary>
+<img src="docs/validation/html_validator_404.png">
+</details>
 
 ### CSS Validation
 The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website.
@@ -320,8 +323,12 @@ The W3C Markup Validation Service was used to validate the HTML of the website. 
 <details><summary>Contact</summary>
 <img src="docs/validation/accessibility_contact.png">
 </details>
+<details><summary>404</summary>
+<img src="docs/validation/accessibility_404.png">
+</details>
 
 ### Performance 
+Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website.
 
 ### Performing tests on various devices 
 The website was tested on the following devices:
