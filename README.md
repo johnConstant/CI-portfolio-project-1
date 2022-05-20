@@ -375,14 +375,44 @@ The website has also been tested in the following browsers.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Map | Navigate to the Contact Us page, locate the Google Map | Locating a map showing the location of the restaurant | Works as expected |
-| Footer - contact information section | On any page scroll down to the footer | Find the address of the restaurant | Works as expected |
+| Header image | Navigate to home page | Image should clearly illustrate the type of food served | Works as expected |
+| Menu info panel | navigate to home page and locate the menu panel | Image and description illustrate the type of food served | Works as expected |
+| Menu page | Navigate to menu page | Menu clearly lists all menu items | Works as expected |
+| Specials panel | Navigate to menu page and locate specials panel | Specials panel clearly describes the menu item and illustrates it with its image | Works as expected |
+| Gallery page | Navigate to gallery page | Images clearly display the type of food served | Works as expected |
 
 2. As a first time user I want to know the prices on the food
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Menu page | Navigate to menu page | Menu clearly lists all menu item's prices | Works as expected |
+| Specials panel | Navigate to menu page and locate specials panel | Specials panel clearly displays the items price | Works as expected |
+
 3. As a first time user I want to know if they cater to special dietary requirements
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Menu page | Navigate to menu page | Menu clearly lists all menu items dietary restrictions | Works as expected |
+| Specials panel | Navigate to menu page and locate chef's recommendation panel | Specials panel clearly displays relevant dietary information | Works as expected |
+
 4. As a first time user I want to know where to find the restaurant
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Map | Navigate to the contact page, locate the Google Map | Locating a map showing the location of the restaurant | Works as expected |
+
 5. As a first time user I want to know when the restaurant is open
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Map | Navigate to the contact page, locate the restaurant info section | Opening hours are clearly displayed | Works as expected |
+
 6. As a first time user I want to know what other people think of this restaurant
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Reviews | Navigate to the home page, scroll to review carousel | Past customers review are clarly displayed describing past experiences | Works as expected |
+
 7. As a first time user I would like to see the food that is served at the restaurant
 8. As a returning user I want to know more about the restaurant and it's staff
 9. As a returning user I want to connect with the restaurant on social media
