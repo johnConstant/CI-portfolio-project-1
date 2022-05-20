@@ -414,15 +414,67 @@ The website has also been tested in the following browsers.
 | Reviews | Navigate to the home page, scroll to review carousel | Past customers review are clarly displayed describing past experiences | Works as expected |
 
 7. As a first time user I would like to see the food that is served at the restaurant
+
 8. As a returning user I want to know more about the restaurant and it's staff
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Info panel | Navigate to the home page, locate Our Team info panel | Panel introduces customer to staff and chef | Works as expected |
+| Chef section | Navigate to the about page, locate Meet the Chef section | Section describes chef history and background. Image shows chef working in kitchen | Works as expected |
+| Blurb | Navigate to the about page, locate blurb beneath header image | Content gives further information about the restaurant staff | Works as expected |
+
 9. As a returning user I want to connect with the restaurant on social media
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Footer | Navigate to the any page, scroll to bottom of page | Links bring user to social media page where they can follow restaurant | Works as expected |
+
 10. As a returning user I want to know how to contact the restaurant
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact details | Navigate to the contact page, locate the restaurant info section | Contact details are clearly displayed | Works as expected |
+| Contact details | Navigate to the contact page, locate the restaurant info section | Mailto link allows user to contact restaurant via email | Works as expected |
+| Contact Form | Navigate to the contact page, scroll down to contact form | Form allows user to contact restaurant through website | Works as expected |
+
 11. As a returning user I want to contact the restaurant about a booking or reservation
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact details | Navigate to the contact page, locate the restaurant info section | Mailto link allows user to contact restaurant via email | Works as expected |
+| Contact Form | Navigate to the contact page, scroll down to contact form | Form allows user to contact restaurant through website | Works as expected |
+
 12. As a returning user I want to know about any new/special dishes being served
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Specials panel | Navigate to menu page and locate chef's recommendation panel | Specials panel clearly informs user of new dishes | Works as expected |
+
 13. As the site owner I want to increase my social media presence and email list audience
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Footer | Navigate to the any page, scroll to bottom of page | Links bring user to social media page where they can follow restaurant | Works as expected |
+| Sign up form | Navigate to the home page, scroll to sign up form | Form gathers name and email info for mailing list | Works as expected |
+
 14. As the site owner I want to advertise new dishes
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Specials panel | Navigate to menu page and locate chef's recommendation panel | Specials panel clearly informs user of new dishes | Works as expected |
+
 15. As the site owner I want customers to being able to contact us
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact details | Navigate to the contact page, locate the restaurant info section | Mailto link allows user to contact restaurant via email | Works as expected |
+| Contact Form | Navigate to the contact page, scroll down to contact form | Form allows user to contact restaurant through website | Works as expected |
+
 16. As the site owner I want to advertise when we are open
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Map | Navigate to the contact page, locate the restaurant info section | Opening hours are clearly displayed | Works as expected |
 
 ## Bugs
 
