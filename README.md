@@ -328,7 +328,27 @@ The W3C Markup Validation Service was used to validate the HTML of the website. 
 </details>
 
 ### Performance 
-Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website.
+Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website. The best practice score has been affected by the inclusion of external libraries such as Bootstrap and Font Awesome.
+
+<details><summary>Home</summary>
+<img src="docs/validation/lighthouse_index.jpg">
+</details>
+<details><summary>About</summary>
+<img src="docs/validation/lighthouse_about.jpg">
+</details>
+<details><summary>Menu</summary>
+<img src="docs/validation/lighthouse_menu.jpg">
+</details>
+<details><summary>Gallery</summary>
+<img src="docs/validation/lighthouse_gallery.jpg">
+</details>
+<details><summary>Contact</summary>
+<img src="docs/validation/lighthouse_contact.jpg">
+</details>
+<details><summary>404</summary>
+<img src="docs/validation/lighthouse_404.jpg">
+</details>
+
 
 ### Performing tests on various devices 
 The website was tested on the following devices:
@@ -350,6 +370,29 @@ The website has also been tested in the following browsers.
 - Google Chrome on Android
 
 ### Testing user stories
+
+1. As a first time user I want to know what food the restaurant serves
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Map | Navigate to the Contact Us page, locate the Google Map | Locating a map showing the location of the restaurant | Works as expected |
+| Footer - contact information section | On any page scroll down to the footer | Find the address of the restaurant | Works as expected |
+
+2. As a first time user I want to know the prices on the food
+3. As a first time user I want to know if they cater to special dietary requirements
+4. As a first time user I want to know where to find the restaurant
+5. As a first time user I want to know when the restaurant is open
+6. As a first time user I want to know what other people think of this restaurant
+7. As a first time user I would like to see the food that is served at the restaurant
+8. As a returning user I want to know more about the restaurant and it's staff
+9. As a returning user I want to connect with the restaurant on social media
+10. As a returning user I want to know how to contact the restaurant
+11. As a returning user I want to contact the restaurant about a booking or reservation
+12. As a returning user I want to know about any new/special dishes being served
+13. As the site owner I want to increase my social media presence and email list audience
+14. As the site owner I want to advertise new dishes
+15. As the site owner I want customers to being able to contact us
+16. As the site owner I want to advertise when we are open
 
 ## Bugs
 
