@@ -381,6 +381,14 @@ The website has also been tested in the following browsers.
 | Specials panel | Navigate to menu page and locate specials panel | Specials panel clearly describes the menu item and illustrates it with its image | Works as expected |
 | Gallery page | Navigate to gallery page | Images clearly display the type of food served | Works as expected |
 
+<details><summary>Screenshots</summary>
+<img src="docs/testing/testing_1_1.jpg">
+<img src="docs/testing/testing_1_2.jpg">
+<img src="docs/testing/testing_1_3.jpg">
+<img src="docs/testing/testing_1_4.jpg">
+<img src="docs/testing/testing_1_5.jpg">
+</details>
+
 2. As a first time user I want to know the prices on the food
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
@@ -428,6 +436,7 @@ The website has also been tested in the following browsers.
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Footer | Navigate to the any page, scroll to bottom of page | Links bring user to social media page where they can follow restaurant | Works as expected |
+| Blurb | Navigate to gallery page, scroll to blurb and click social media link | Link brings you to footer social media links | Works as expected |
 
 10. As a returning user I want to know how to contact the restaurant
 
