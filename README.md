@@ -597,10 +597,10 @@ I got my images from Pexels.com and the menu panel image on the home page from S
 ### Code
 - Hamburger style navigation comes from the Bootstrap v5.2 CSS and Javascript framework
 - Home page reviews carousel was done the CSS and Javascript framework, Bootstrap v5.2
-- My form styling came from a Udemy course, (Advanced CSS and SASS)[https://www.udemy.com/course/advanced-css-and-sass/], by Jonas Schmedtman
-- Removing the form labels in an accessible way came from (CSS Tricks)[https://css-tricks.com/html-inputs-and-labels-a-love-story/]
-- The Instagram gradient colours were taken from (Stack Overflow)[https://stackoverflow.com/questions/37751375/instagram-new-logo-css-background] and applied using another tutorial on (CSS Tricks)[https://css-tricks.com/snippets/css/gradient-text/]
-- The menu page when displayed on mobile came from (CodePen)[https://codepen.io/owlsky/pen/nXZaLJ] courtesy of Owlsky
+- My form styling came from a Udemy course, [Advanced CSS and SASS](https://www.udemy.com/course/advanced-css-and-sass/), by Jonas Schmedtman
+- Removing the form labels in an accessible way came from [CSS Tricks](https://css-tricks.com/html-inputs-and-labels-a-love-story/)
+- The Instagram gradient colours were taken from [Stack Overflow](https://stackoverflow.com/questions/37751375/instagram-new-logo-css-background) and applied using another tutorial on [CSS Tricks](https://css-tricks.com/snippets/css/gradient-text/)
+- The menu page when displayed on mobile came from [CodePen](https://codepen.io/owlsky/pen/nXZaLJ) courtesy of Owlsky
 
 ## Acknowledgements
 I would like to thank my mentor, Mohammad Shami, for all of his help and guidance during this project.
