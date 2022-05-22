@@ -331,7 +331,7 @@ The W3C Markup Validation Service was used to validate the HTML of the website. 
 Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website. The best practice score has been affected by the inclusion of external libraries such as Bootstrap and Font Awesome.
 
 <details><summary>Home</summary>
-<img src="docs/validation/lighthouse_index.png">
+<img src="docs/validation/lighthouse_index_2.png">
 </details>
 <details><summary>About</summary>
 <img src="docs/validation/lighthouse_about.png">
@@ -340,7 +340,7 @@ Google Lighthouse in Google Chrome Developer Tools was used to test the performa
 <img src="docs/validation/lighthouse_menu.png">
 </details>
 <details><summary>Gallery</summary>
-<img src="docs/validation/lighthouse_gallery.png">
+<img src="docs/validation/lighthouse_gallery_2.png">
 </details>
 <details><summary>Contact</summary>
 <img src="docs/validation/lighthouse_contact.png">
