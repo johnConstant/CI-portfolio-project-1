@@ -331,22 +331,22 @@ The W3C Markup Validation Service was used to validate the HTML of the website. 
 Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website. The best practice score has been affected by the inclusion of external libraries such as Bootstrap and Font Awesome.
 
 <details><summary>Home</summary>
-<img src="docs/validation/lighthouse_index.jpg">
+<img src="docs/validation/lighthouse_index.png">
 </details>
 <details><summary>About</summary>
-<img src="docs/validation/lighthouse_about.jpg">
+<img src="docs/validation/lighthouse_about.png">
 </details>
 <details><summary>Menu</summary>
-<img src="docs/validation/lighthouse_menu.jpg">
+<img src="docs/validation/lighthouse_menu.png">
 </details>
 <details><summary>Gallery</summary>
-<img src="docs/validation/lighthouse_gallery.jpg">
+<img src="docs/validation/lighthouse_gallery.png">
 </details>
 <details><summary>Contact</summary>
-<img src="docs/validation/lighthouse_contact.jpg">
+<img src="docs/validation/lighthouse_contact.png">
 </details>
 <details><summary>404</summary>
-<img src="docs/validation/lighthouse_404.jpg">
+<img src="docs/validation/lighthouse_404.png">
 </details>
 
 
@@ -382,11 +382,11 @@ The website has also been tested in the following browsers.
 | Gallery page | Navigate to gallery page | Images clearly display the type of food served | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/testing/testing_1_1.jpg">
-<img src="docs/testing/testing_1_2.jpg">
-<img src="docs/testing/testing_1_3.jpg">
-<img src="docs/testing/testing_1_4.jpg">
-<img src="docs/testing/testing_1_5.jpg">
+<img src="docs/testing/testing_1_1.png">
+<img src="docs/testing/testing_1_2.png">
+<img src="docs/testing/testing_1_3.png">
+<img src="docs/testing/testing_1_4.png">
+<img src="docs/testing/testing_1_5.png">
 </details>
 
 2. As a first time user I want to know the prices on the food
@@ -397,8 +397,8 @@ The website has also been tested in the following browsers.
 | Specials panel | Navigate to menu page and locate specials panel | Specials panel clearly displays the items price | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/testing/testing_1_3.jpg">
-<img src="docs/testing/testing_1_4.jpg">
+<img src="docs/testing/testing_1_3.png">
+<img src="docs/testing/testing_1_4.png">
 </details>
 
 3. As a first time user I want to know if they cater to special dietary requirements
@@ -409,8 +409,8 @@ The website has also been tested in the following browsers.
 | Specials panel | Navigate to menu page and locate chef's recommendation panel | Specials panel clearly displays relevant dietary information | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/testing/testing_1_3.jpg">
-<img src="docs/testing/testing_1_4.jpg">
+<img src="docs/testing/testing_1_3.png">
+<img src="docs/testing/testing_1_4.png">
 </details>
 
 4. As a first time user I want to know where to find the restaurant
@@ -420,7 +420,7 @@ The website has also been tested in the following browsers.
 | Map | Navigate to the contact page, locate the Google Map | Locating a map showing the location of the restaurant | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/testing/testing_4_1.jpg">
+<img src="docs/testing/testing_4_1.png">
 </details>
 
 5. As a first time user I want to know when the restaurant is open
@@ -430,7 +430,7 @@ The website has also been tested in the following browsers.
 | Map | Navigate to the contact page, locate the restaurant info section | Opening hours are clearly displayed | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/testing/testing_5_1.jpg">
+<img src="docs/testing/testing_5_1.png">
 </details>
 
 6. As a first time user I want to know what other people think of this restaurant
@@ -440,7 +440,7 @@ The website has also been tested in the following browsers.
 | Reviews | Navigate to the home page, scroll to review carousel | Past customers review are clarly displayed describing past experiences | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/testing/testing_6_1.jpg">
+<img src="docs/testing/testing_6_1.png">
 </details>
 
 7. As a first time user I would like to see the food that is served at the restaurant
@@ -454,10 +454,10 @@ The website has also been tested in the following browsers.
 | Blurb | Navigate to the about page, locate blurb beneath header image | Content gives further information about the restaurant staff | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/testing/testing_8_1.jpg">
-<img src="docs/testing/testing_8_2_1.jpg">
-<img src="docs/testing/testing_8_2_2.jpg">
-<img src="docs/testing/testing_8_3.jpg">
+<img src="docs/testing/testing_8_1.png">
+<img src="docs/testing/testing_8_2_1.png">
+<img src="docs/testing/testing_8_2_2.png">
+<img src="docs/testing/testing_8_3.png">
 </details>
 
 9. As a returning user I want to connect with the restaurant on social media
@@ -468,8 +468,8 @@ The website has also been tested in the following browsers.
 | Blurb | Navigate to gallery page, scroll to blurb and click social media link | Link brings you to footer social media links | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/testing/testing_9_1.jpg">
-<img src="docs/testing/testing_9_2.jpg">
+<img src="docs/testing/testing_9_1.png">
+<img src="docs/testing/testing_9_2.png">
 </details>
 
 10. As a returning user I want to know how to contact the restaurant
@@ -481,9 +481,9 @@ The website has also been tested in the following browsers.
 | Contact Form | Navigate to the contact page, scroll down to contact form | Form allows user to contact restaurant through website | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/testing/testing_10_1.jpg">
-<img src="docs/testing/testing_10_1.jpg">
-<img src="docs/testing/testing_10_3.jpg">
+<img src="docs/testing/testing_10_1.png">
+<img src="docs/testing/testing_10_1.png">
+<img src="docs/testing/testing_10_3.png">
 </details>
 
 11. As a returning user I want to contact the restaurant about a booking or reservation
@@ -494,8 +494,8 @@ The website has also been tested in the following browsers.
 | Contact Form | Navigate to the contact page, scroll down to contact form | Form allows user to contact restaurant through website | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/testing/testing_10_1.jpg">
-<img src="docs/testing/testing_10_3.jpg">
+<img src="docs/testing/testing_10_1.png">
+<img src="docs/testing/testing_10_3.png">
 </details>
 
 12. As a returning user I want to know about any new/special dishes being served
@@ -506,8 +506,8 @@ The website has also been tested in the following browsers.
 | Sign up form | Navigate to the home page, scroll to sign up form | Form gathers name and email info for mailing list | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/testing/testing_12_1.jpg">
-<img src="docs/testing/testing_12_2.jpg">
+<img src="docs/testing/testing_12_1.png">
+<img src="docs/testing/testing_12_2.png">
 </details>
 
 13. As the site owner I want to increase my social media presence and email list audience
@@ -518,8 +518,8 @@ The website has also been tested in the following browsers.
 | Sign up form | Navigate to the home page, scroll to sign up form | Form gathers name and email info for mailing list | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/testing/testing_9_1.jpg">
-<img src="docs/testing/testing_12_2.jpg">
+<img src="docs/testing/testing_9_1.png">
+<img src="docs/testing/testing_12_2.png">
 </details>
 
 14. As the site owner I want to advertise new dishes
@@ -529,7 +529,7 @@ The website has also been tested in the following browsers.
 | Specials panel | Navigate to menu page and locate chef's recommendation panel | Specials panel clearly informs user of new dishes | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/testing/testing_12_1.jpg">
+<img src="docs/testing/testing_12_1.png">
 </details>
 
 15. As the site owner I want customers to being able to contact us
@@ -540,8 +540,8 @@ The website has also been tested in the following browsers.
 | Contact Form | Navigate to the contact page, scroll down to contact form | Form allows user to contact restaurant through website | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/testing/testing_10_1.jpg">
-<img src="docs/testing/testing_10_3.jpg">
+<img src="docs/testing/testing_10_1.png">
+<img src="docs/testing/testing_10_3.png">
 </details>
 
 16. As the site owner I want to advertise when we are open
@@ -551,7 +551,7 @@ The website has also been tested in the following browsers.
 | Map | Navigate to the contact page, locate the restaurant info section | Opening hours are clearly displayed | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/testing/testing_5_1.jpg">
+<img src="docs/testing/testing_5_1.png">
 </details>
 
 ## Bugs
