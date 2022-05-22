@@ -445,6 +445,14 @@ The website has also been tested in the following browsers.
 
 7. As a first time user I would like to see the food that is served at the restaurant
 
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Gallery page | Navigate to gallery page | Images clearly display the type of food served | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/testing/testing_1_5.png">
+</details>
+
 8. As a returning user I want to know more about the restaurant and it's staff
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
